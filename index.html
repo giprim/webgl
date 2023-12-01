@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebGL</title>
+</head>
+<style>
+  html, head, body {
+    margin: 0;
+    padding: 16px;
+    background-color: #2a2a2a;
+  }
+
+  #demo-canvas {
+    width: 580px;
+    height: 580px;
+    background-color: #bababa;
+  }
+
+  #error-box {
+    color: #fd8080;
+    font-weight: 500;
+    font-size: 16pt;
+    padding: 16px;
+    margin-top: 20px;
+  }
+
+  .error-box-title {
+    color: #eee;
+    border-bottom: 1px solid gray;
+  }
+
+</style>
+<body>
+  <canvas id="demo-canvas"></canvas>
+  <div id="error-box">
+    <span class="error-box-title">Error message, if any, goes in here</span>
+  </div>
+  <script src="3d.js"></script>
+</body>
+</html>
